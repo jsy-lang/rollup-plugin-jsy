@@ -5,7 +5,7 @@ export default {
 	input: 'code/rpi-jsy.mjs',
 	output: [
 		{file: pkg.module, format: 'es'},
-		{file: pkg.main, format: 'cjs'}],
+		{file: pkg.main, format: 'cjs', exports: "default"}],
   plugins: [ rpi_resolve() ],
   external: ['path', 'util'],
 }
