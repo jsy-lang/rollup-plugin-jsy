@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-jsy",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Rollup JSY syntax transpiler to standard JavaScript",
   "license": "MIT",
   "author": "Shane Holloway",
@@ -24,7 +24,7 @@
   "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.0.1",
-    "jsy-transpile": "^0.10.1",
+    "jsy-transpile": "^0.10.2",
     "rollup": "^3.19.0",
     "rollup-plugin-jsy": "file:."
   },
