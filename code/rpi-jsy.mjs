@@ -1,4 +1,4 @@
-import _rpi_jsy from 'jsy-transpile/esm/rollup.mjs'
+import _rpi_jsy from 'jsy-transpile/esm/rollup.js'
 
 const default_jsy_config = { exclude: 'node_modules/**' }
 
