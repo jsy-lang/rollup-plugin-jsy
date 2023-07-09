@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-jsy",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "Rollup JSY syntax transpiler to standard JavaScript",
   "license": "MIT",
   "author": "Shane Holloway",
@@ -11,8 +11,8 @@
     "JSY"
   ],
   "files": [
-    "cjs",
-    "esm"
+    "rpi-jsy.mjs",
+    "rpi-jsy.cjs"
   ],
   "main": "./rpi-jsy.cjs",
   "module": "./rpi-jsy.mjs",
