@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-jsy",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "description": "Rollup JSY syntax transpiler to standard JavaScript",
   "license": "MIT",
   "author": "Shane Holloway",
@@ -21,10 +21,10 @@
     "url": "git+https://github.com/jsy-lang/rollup-plugin-jsy.git"
   },
   "peerDependencies": {
-    "@jsy-lang/jsy": "^0.10.6"
+    "@jsy-lang/jsy": "^0.10.8"
   },
   "devDependencies": {
-    "rollup": "^3.29.4"
+    "rollup": "^3.29.5"
   },
   "scripts": {
     "prepublishOnly": "npm -s run test",
